@@ -64,7 +64,7 @@ ul li a {
 }
 
 .section-1 button {
-  background-color: rgb(24, 102, 205);
+  background-color: #3882F6;
   color: white;
   padding: 8px 24px;
   border-radius: 5px;
@@ -76,11 +76,13 @@ ul li a {
 }
 
 
-
 /* Section 2 */
-.content-2 .slide img {
-  width: 150px;
-  height: 150px;
+.slide img {
+  width: 130px;
+  height: 130px;
+  border-style: solid;
+  border-color: #3882F6;
+  border-radius: 16px;
 }
 
 .section-2,
@@ -104,4 +106,17 @@ ul li a {
 .title-2 {
   margin-top: 15px;
   margin-bottom: 35px;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.slide p,
+.slide img {
+  flex: auto;
 }
