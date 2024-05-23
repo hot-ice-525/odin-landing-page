@@ -7,7 +7,8 @@
 }
 
 .section-1,
-.section-2 {
+.section-2,
+.section-3 {
   padding-top: 20px;
   padding-bottom: 40px;
 }
@@ -119,4 +120,19 @@ ul li a {
 .slide p,
 .slide img {
   flex: auto;
+}
+
+
+/* Section 3 */
+.section-3 {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 360px;
+}
+
+.section-3 .quote {
+  color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
 }
