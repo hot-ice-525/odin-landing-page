@@ -78,7 +78,7 @@ ul li a {
 
 /* Section 2 */
 .slide img {
-  width: 130px;
+  width: inherit;
   height: 130px;
   border-style: solid;
   border-color: #3882F6;
@@ -97,7 +97,7 @@ ul li a {
 }
 
 .content-2 {
-  gap: 20px;
+  gap: 40px;
   margin-right: 350px;
   margin-left: 350px;
   margin-bottom: 80px;
@@ -113,7 +113,8 @@ ul li a {
 .slide {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  text-align: center;
+  width: 120px;
 }
 
 /* Section 3 */
