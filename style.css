@@ -25,7 +25,7 @@
 
 .main-1 .image-1 img {
   width: 500px;
-  height: 220px;
+  height: 200px;
 }
 
 .section-1 .header,
@@ -76,7 +76,6 @@ ul li a {
   padding-bottom: 10px;
 }
 
-
 /* Section 2 */
 .slide img {
   width: 130px;
@@ -117,12 +116,6 @@ ul li a {
   flex-wrap: wrap;
 }
 
-.slide p,
-.slide img {
-  flex: auto;
-}
-
-
 /* Section 3 */
 .section-3 {
   background-color: #E5E7EB;
@@ -135,4 +128,11 @@ ul li a {
   color: #1F2937;
   font-size: 36px;
   font-style: italic;
+}
+
+.section-3 .author {
+  align-self: flex-end;
+  font-weight: bolder;
+  font-size: 18px;
+  margin-top: 10px;
 }
